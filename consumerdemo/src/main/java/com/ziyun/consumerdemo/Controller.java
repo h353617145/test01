@@ -15,4 +15,9 @@ public class Controller {
     public String test(){
         return echoService.get();
     }
+
+    @RequestMapping("users")
+    public String users(){
+        return echoService.users();
+    }
 }

@@ -10,4 +10,9 @@ public class EchoServiceFallback implements EchoService{
 
         return "EchoServiceFallback";
     }
+
+    @Override
+    public String users() {
+        return "EchoServiceFallback";
+    }
 }
